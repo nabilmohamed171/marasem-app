@@ -157,7 +157,7 @@
   padding: 15px 0 4px;
   font-size: 16px;
   margin: 0;
-  width: 240px;
+  width: 135px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -217,7 +217,7 @@
 
   .most-views .most-views-info h2,
   .new-artwork .new-artwork-info h2 {
-    width: 165px;
+    width: 135px;
     font-size: 14px;
   }
 

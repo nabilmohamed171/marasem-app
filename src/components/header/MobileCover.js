@@ -21,10 +21,10 @@ const MobileCover = () => {
             </Link>
             <div className="full-info">
               <ul className="list-unstyled">
-                <Link href="/images/logo_2.png">
+                <Link href="#">
                   <Image
                     className="logo-info"
-                    src="/images/logo 2.png"
+                    src="/images/logo_2.png"
                     alt="Logo"
                     width={45}
                     height={45}

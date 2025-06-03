@@ -10,11 +10,11 @@
 }
 
 .filter-mobile {
-  padding: 50px 10px;
+  padding: 30px 10px;
   position: fixed;
   background-color: #000;
   margin-top: 100px;
-  border-radius: 40px 40px 0 0;
+  border-radius: 20px 20px 0 0;
   height: 100%;
   width: 100%;
   top: 0;
@@ -29,7 +29,7 @@
 .filter-mobile .find .xmark {
   position: absolute;
   right: 15px;
-  top: 50px;
+  top: 30px;
   color: var(--text-color);
   font-size: 18px;
   background-color: transparent;
@@ -45,9 +45,8 @@
 .filter-mobile .find-links li {
   display: inline-block;
   margin-right: 3px;
-  padding: 8px 6px;
+  padding: 8px 3px;
   color: var(--text-color);
-  font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: 14px;
@@ -137,7 +136,7 @@
   background-color: transparent;
   color: #fff;
   font-size: 14px;
-  margin-left: 20px;
+  margin-left: 10px;
   top: 5px;
   border: none;
   position: relative;

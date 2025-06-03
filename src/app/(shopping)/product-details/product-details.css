@@ -230,6 +230,7 @@
   color: #fff;
   line-height: 1.5;
   padding: 15px 20px 0 20px;
+  font-size: 13px;
 }
 
 .tab-content p:last-child {
@@ -320,6 +321,10 @@
 
   body {
     padding-bottom: 80px;
+  }
+
+  .all-artworks-user {
+    padding-top: 0;
   }
 }
 

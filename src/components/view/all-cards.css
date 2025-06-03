@@ -134,7 +134,7 @@
   padding: 15px 0 4px;
   font-size: 16px;
   margin: 0;
-  width: 240px;
+  width: 135px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -144,7 +144,7 @@
 .images-items-collections p {
   color: #777;
   font-size: 14px;
-  width: 240px;
+  width: 135px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -247,7 +247,7 @@
   }
 
   .images-items-collections p {
-    width: 180px;
+    width: 135px;
   }
 
   .slider-tags {

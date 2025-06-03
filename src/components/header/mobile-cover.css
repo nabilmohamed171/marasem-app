@@ -80,16 +80,16 @@
   .main-mobile-cover .large-info {
     position: absolute;
     bottom: 100px;
-    left: 30px;
+    left: 20px;
     color: #fff;
     text-align: left;
   }
 
   .main-mobile-cover .x-small-info {
     position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: 10px;
+    left: 33%;
+    transform: translateX(-20%);
     text-align: center;
   }
 

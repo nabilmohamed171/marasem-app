@@ -100,9 +100,9 @@
   background-color: var(--main-color);
   color: #000;
   border-radius: 20px;
-  width: 130px;
+  width: 100px;
   font-size: 14px;
-  height: 44px !important;
+  height: 42px !important;
 }
 
 .main-footer .payment h3 {

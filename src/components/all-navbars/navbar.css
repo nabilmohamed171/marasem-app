@@ -12,7 +12,7 @@
 }
 
 .btn-mobile {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .navbar-collapse .collapse.show {
@@ -250,7 +250,7 @@
 }
 
 .navbar .dropdown-menu .dropdown-item {
-  padding: 15px;
+  padding: 10px;
   border-bottom: 1px solid #606060;
   font-size: 14px;
 }
@@ -259,9 +259,9 @@
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 10px;
-  padding: 10px 15px !important;
+  padding: 8px 15px !important;
   color: #fff;
   background-color: transparent;
   border: 1px solid #fff;
@@ -288,14 +288,15 @@
   }
 
   .navbar .logo-mobile {
-    width: 32px !important;
-    height: 39px !important;
+    width: 30px !important;
+    height: 38px !important;
   }
 
   .navbar .logo-mobile img {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover !important;
+    background-size: cover;
   }
 }
 

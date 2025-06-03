@@ -19,7 +19,7 @@ const FilterMobile = () => {
   const links = [
     { id: "category-accordion", label: "Category" },
     { id: "location-accordion", label: "Location" },
-    { id: "price-accordion", label: "Price (EGP)" },
+    { id: "price-accordion", label: "Price" },
     { id: "foryou-accordion", label: "For you" },
   ];
 

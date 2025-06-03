@@ -14,7 +14,7 @@
 .navbar .nav-artist .dropdown-menu {
   background: #1a1a1a;
   width: 223px;
-  top: 39px;
+  top: 30px;
   border-radius: 0 0 10px 10px;
   left: -83px;
   border: none;
@@ -75,7 +75,7 @@
     position: fixed;
     left: 0;
     right: 0;
-    top: 55px;
+    top: 54px;
     bottom: 0;
     background: #000;
   }
@@ -107,7 +107,7 @@
   .artist-menu-mobile .box-menu .box-profile {
     background: #141414;
     padding: 10px 30px 10px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     border-radius: 20px;
     color: #fff;
     position: relative;
@@ -117,7 +117,7 @@
   .artist-menu-mobile .box-menu .box-orders {
     background: #141414;
     padding: 3px 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-radius: 20px;
     color: #fff;
     position: relative;
@@ -233,7 +233,7 @@
   .artist-menu-mobile .box-menu .box-list-profile ul li a,
   .artist-menu-mobile .box-menu .box-list-collection ul li a,
   .artist-menu-mobile .box-menu .box-list-orders ul li a {
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
     color: #fff;
     padding: 0px 0 10px 0;
@@ -241,7 +241,7 @@
   }
 
   .artist-menu-mobile .box-menu .box-button-profile {
-    padding: 10px 20px;
+    padding: 7px;
     background: #f3ae4d;
     text-align: center;
     width: 50%;
@@ -250,18 +250,18 @@
     bottom: 0;
     border-radius: 40px;
     left: 25%;
-    bottom: -20px;
+    bottom: -10px;
   }
 
   .artist-menu-mobile .box-menu .box-button-profile a {
     color: #222;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     text-decoration: none;
   }
 
   .artist-menu-mobile .box-menu .box-button-logout a {
-    padding: 8px;
+    padding: 5px;
     width: 100%;
     text-align: center;
     display: block;
@@ -269,7 +269,7 @@
     border-radius: 12px;
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .artist-menu-mobile .box-menu .box-button-logout span.logout-icon {
@@ -294,12 +294,17 @@
   }
 
   .artist-menu-mobile .box-menu .map-icon {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .artist-menu-mobile .profile-image {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .artist-menu-mobile .profile-image img {
+    width: 100%;
+    height: 100%;
   }
 
   .artist-menu-mobile .profile-name h3 {
@@ -308,6 +313,6 @@
   }
 
   .artist-menu-mobile .profile-name span {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
