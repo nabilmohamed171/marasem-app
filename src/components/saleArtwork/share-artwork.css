@@ -149,15 +149,14 @@
 }
 
 .multi-upload .multi-upload-center h3 {
-  font-size: 22px;
-  margin-bottom: 20px;
+  font-size: 16px;
   color: #e5e5e5;
   margin-bottom: 10px;
 }
 
 .multi-upload .multi-upload-center p:first-child {
   color: #c1c1c1;
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 
@@ -192,6 +191,10 @@ label {
   color: #fff;
   font-size: 12px !important;
   margin-bottom: 5px;
+}
+
+::placeholder {
+  font-size: 12px;
 }
 
 .inputs-data input[type="text"],
@@ -251,9 +254,10 @@ label {
 .size-price-grid .egp {
   position: absolute;
   color: #f1ad56;
-  font-weight: 500;
+  font-weight: 400;
   right: 20px;
   top: 33px;
+  font-size: 12px;
 }
 
 /* Divider */

@@ -295,8 +295,6 @@
   .navbar .logo-mobile img {
     width: 100% !important;
     height: 100% !important;
-    object-fit: cover !important;
-    background-size: cover;
   }
 }
 
@@ -318,7 +316,6 @@
   .navbar .logo-mobile img {
     width: 100% !important;
     height: 100% !important;
-    object-fit: cover !important;
   }
 }
 
