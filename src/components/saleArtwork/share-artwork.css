@@ -19,14 +19,17 @@
 /* Form Elements */
 ::placeholder {
   color: #eee !important;
+  font-size: 11px;
 }
 
 .form-control::placeholder {
   color: #777 !important;
+  font-size: 11px;
 }
 
 .form-control:focus::placeholder {
   color: #eee !important;
+  font-size: 11px;
 }
 
 /* Share Artwork Section */
@@ -168,6 +171,10 @@
   display: inline;
 }
 
+.multi-upload .multi-upload-center p {
+  font-size: 12px;
+}
+
 .multi-upload .multi-upload-center .point-icon {
   color: #4c4c4c;
   margin-right: 5px;
@@ -193,10 +200,6 @@ label {
   margin-bottom: 5px;
 }
 
-::placeholder {
-  font-size: 12px;
-}
-
 .inputs-data input[type="text"],
 .inputs-data input[type="number"],
 .form-select,
@@ -208,6 +211,7 @@ label {
   margin-bottom: 10px;
   border-radius: 10px;
   outline: none;
+  font-size: 13px;
 }
 
 .inputs-data input[type="text"]:focus,
