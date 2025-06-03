@@ -55,16 +55,17 @@
 }
 
 .user .name {
-  font-size: 15px;
+  font-size: 14px;
   position: relative;
   top: -10px;
 }
 
 .user .address {
   position: relative;
-  left: -105px;
-  top: 10px;
-  color: #777;
+  left: -97px !important;
+  top: 8px !important;
+  color: #777 !important;
+  font-size: 11px;
 }
 
 .main-image-container {
@@ -260,6 +261,14 @@ textarea:focus {
   input[type="text"],
   textarea {
     margin-bottom: 10px !important;
+  }
+
+  ::placeholder {
+    font-size: 11px;
+  }
+
+  .upload-text p {
+    font-size: 13px;
   }
 }
 
