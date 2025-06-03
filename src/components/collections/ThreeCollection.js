@@ -29,101 +29,96 @@ const ThreeCollections = () => {
                 </div>
               </div>
               <div className="col-md-6 col-7">
-                <div className="row">
-                  <div className="col-md-8 col-7">
-                    <div className="first-image">
-                      <Link href="/collections">
-                        <Image
-                          src="/images/6.png"
-                          alt="Modern Art"
-                          width={177}
-                          height={177}
-                          quality={70}
-                          loading="lazy"
-                        />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-5">
-                    <div className="sec-image">
+                <div className="images-grid">
+                  <div className="main-image">
+                    <Link href="/collections">
                       <Image
-                        src="/images/2.png"
-                        alt="Second Image of Modern Art"
-                        width={85}
-                        height={85}
+                        src="/images/7.png"
+                        alt="image"
+                        width={177}
+                        height={177}
                         quality={70}
                         loading="lazy"
                       />
-                      <div className="dark-theme">
-                        <div className="image-number-count">
-                          <div className="overley-r-r-b"></div>
-                          <Image
-                            src="/images/6.png"
-                            alt="Overlay Image for Modern Art"
-                            width={85}
-                            height={85}
-                            quality={70}
-                            loading="lazy"
-                          />
-                        </div>
-                        <span>2+</span>
+                    </Link>
+                  </div>
+                  <div className="top-right-image">
+                    <Image
+                      src="/images/6.png"
+                      alt="image"
+                      width={85}
+                      height={85}
+                      quality={70}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="bottom-right-image">
+                    <div className="dark-theme">
+                      <div className="image-number-count">
+                        <div className="overley-r-r-b"></div>
+                        <Image
+                          src="/images/5.png"
+                          alt="image"
+                          width={85}
+                          height={85}
+                          quality={70}
+                          loading="lazy"
+                        />
                       </div>
+                      <span>5+</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           <div className="col-md-6 col-6 sec">
             <div className="row">
               <div className="col-md-6 col-5">
                 <div className="info">
-                  <h2>POP ART</h2>
+                  <h2>GIFTS</h2>
                   <p>{limitWords(text2, 8)}</p>
                   <Link href="/collections">Find</Link>
                 </div>
               </div>
               <div className="col-md-6 col-7">
-                <div className="row">
-                  <div className="col-md-8 col-7">
-                    <div className="first-image">
-                      <Link href="/collections">
-                        <Image
-                          src="/images/4.png"
-                          alt="Pop Art"
-                          width={177}
-                          height={177}
-                          quality={70}
-                          loading="lazy"
-                        />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-5">
-                    <div className="sec-image">
+                <div className="images-grid">
+                  <div className="main-image">
+                    <Link href="/collections">
                       <Image
-                        src="/images/5.png"
-                        alt="Second Image of Pop Art"
-                        width={85}
-                        height={85}
+                        src="/images/3.png"
+                        alt="image"
+                        width={177}
+                        height={177}
                         quality={70}
                         loading="lazy"
                       />
-                      <div className="dark-theme">
-                        <div className="image-number-count">
-                          <div className="overley-r-r-b"></div>
-                          <Image
-                            src="/images/6.png"
-                            alt="Overlay Image for Pop Art"
-                            width={85}
-                            height={85}
-                            quality={70}
-                            loading="lazy"
-                          />
-                        </div>
-                        <span>7+</span>
+                    </Link>
+                  </div>
+                  <div className="top-right-image">
+                    <Image
+                      src="/images/4.png"
+                      alt="image"
+                      width={85}
+                      height={85}
+                      quality={70}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="bottom-right-image">
+                    <div className="dark-theme">
+                      <div className="image-number-count">
+                        <div className="overley-r-r-b"></div>
+                        <Image
+                          src="/images/5.png"
+                          alt="image"
+                          width={85}
+                          height={85}
+                          quality={70}
+                          loading="lazy"
+                        />
                       </div>
+                      <span>3+</span>
                     </div>
                   </div>
                 </div>

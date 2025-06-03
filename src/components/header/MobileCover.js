@@ -21,7 +21,7 @@ const MobileCover = () => {
             </Link>
             <div className="full-info">
               <ul className="list-unstyled">
-                <Link href="#">
+                <Link href="/images/logo_2.png">
                   <Image
                     className="logo-info"
                     src="/images/logo 2.png"

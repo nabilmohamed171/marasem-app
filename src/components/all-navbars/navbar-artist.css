@@ -86,16 +86,16 @@
 
   .artist-menu-mobile .box-menu .box-search .form-search .search-icon-mobile {
     position: absolute;
-    top: 25px;
+    top: 0;
     font-size: 25px;
     color: #fff;
-    left: 20px;
+    left: 15px;
   }
 
   .artist-menu-mobile .box-menu .box-search input {
-    margin-top: 20px;
+    margin-top: 0;
     width: 100%;
-    padding: 13px;
+    padding: 10px;
     margin-bottom: 10px;
     border-radius: 30px;
     border: 1px solid #141414;
@@ -106,7 +106,7 @@
 
   .artist-menu-mobile .box-menu .box-profile {
     background: #141414;
-    padding: 20px 30px 10px;
+    padding: 10px 30px 10px;
     margin-bottom: 30px;
     border-radius: 20px;
     color: #fff;
@@ -295,5 +295,19 @@
 
   .artist-menu-mobile .box-menu .map-icon {
     font-size: 16px;
+  }
+
+  .artist-menu-mobile .profile-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .artist-menu-mobile .profile-name h3 {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .artist-menu-mobile .profile-name span {
+    font-size: 12px;
   }
 }

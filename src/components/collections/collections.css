@@ -1,7 +1,7 @@
 .overley-r-r-b {
   position: absolute;
   width: 100%;
-  height: 96%;
+  height: 100%;
   top: 0;
   left: 0;
   bottom: 0;
@@ -114,44 +114,63 @@
   display: inline-block;
 }
 
-.sec-collections .first .first-image,
-.first-collections .first .first-image,
-.first-collections .sec .first-image,
-.sec-collections .sec .first-image,
-.three-collections .first .first-image,
-.three-collections .sec .first-image {
-  position: relative;
-  right: -15px;
-  overflow: hidden;
+.images-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 0;
+  height: 100%;
 }
 
-.sec-collections .first .first-image img,
-.first-collections .first .first-image img,
-.first-collections .sec .first-image img,
-.sec-collections .sec .first-image img,
-.three-collections .first .first-image img,
-.three-collections .sec .first-image img {
+.main-image {
+  grid-row: 1 / span 2;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.main-image img {
   width: 100%;
   height: 170px;
   object-fit: cover;
   border-radius: 20px 0 0 20px;
 }
 
-.first-collections .first .sec-image .dark-theme,
-.first-collections .sec .sec-image .dark-theme,
-.sec-collections .first .sec-image .dark-theme,
-.sec-collections .sec .sec-image .dark-theme,
-.three-collections .first .sec-image .dark-theme,
-.three-collections .sec .sec-image .dark-theme {
+.top-right-image {
+  grid-column: 2;
+  grid-row: 1;
+  height: 85px;
+  overflow: hidden;
+}
+
+.top-right-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 20px 0 0;
+}
+
+.bottom-right-image {
+  grid-column: 2;
+  grid-row: 2;
+  height: 85px;
+  overflow: hidden;
   position: relative;
 }
 
-.first-collections .sec .sec-image span,
-.first-collections .first .sec-image span,
-.sec-collections .first .sec-image span,
-.sec-collections .sec .sec-image span,
-.three-collections .first .sec-image span,
-.three-collections .sec .sec-image span {
+.bottom-right-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0 0 30px 0;
+}
+
+.dark-theme {
+  position: relative;
+  height: 100%;
+}
+
+.dark-theme span {
   font-size: 25px;
   color: #fff;
   font-weight: 400;
@@ -162,60 +181,11 @@
   text-align: center;
 }
 
-.sec-collections .first .sec-image img,
-.first-collections .first .sec-image img,
-.first-collections .sec .sec-image img,
-.sec-collections .sec .sec-image img,
-.three-collections .first .sec-image img,
-.three-collections .sec .sec-image img {
-  width: 100%;
-  height: calc(167px / 2);
-  object-fit: cover;
-  border-radius: 0 20px 0 0;
-  margin-bottom: 3px;
-}
-
-.sec-collections .first .sec-image img:last-child,
-.first-collections .sec .sec-image img:last-child,
-.first-collections .first .sec-image img:last-child,
-.sec-collections .sec .sec-image img:last-child,
-.three-collections .first .sec-image img:last-child,
-.three-collections .sec .sec-image img:last-child {
-  border-radius: 0 0 20px 0;
-}
-
 @media (max-width: 575.98px) {
-  .first-collections .sec .sec-image span,
-  .first-collections .first .sec-image span,
-  .sec-collections .first .sec-image span,
-  .sec-collections .sec .sec-image span,
-  .three-collections .first .sec-image span,
-  .three-collections .sec .sec-image span {
-    font-size: 14px;
-  }
-
   .first-collections,
   .sec-collections,
   .three-collections {
     margin: auto 20px;
-  }
-
-  .sec-collections .first .first-image img,
-  .first-collections .first .first-image img,
-  .first-collections .sec .first-image img,
-  .sec-collections .sec .first-image img,
-  .three-collections .first .first-image img,
-  .three-collections .sec .first-image img {
-    height: 140px;
-  }
-
-  .sec-collections .first .sec-image img,
-  .first-collections .first .sec-image img,
-  .first-collections .sec .sec-image img,
-  .sec-collections .sec .sec-image img,
-  .three-collections .first .sec-image img,
-  .three-collections .sec .sec-image img {
-    height: calc(137px / 2);
   }
 
   .sec-collections .first,
@@ -226,6 +196,19 @@
   .three-collections .sec {
     padding: 20px 20px 0;
     height: 180px;
+  }
+
+  .main-image img {
+    height: 140px;
+  }
+
+  .top-right-image,
+  .bottom-right-image {
+    height: 70px;
+  }
+
+  .dark-theme span {
+    font-size: 14px;
   }
 
   .sec-collections .first .info h2,
@@ -250,5 +233,13 @@
 
   .first-collections .sec {
     margin-bottom: 30px !important;
+  }
+
+  .images-grid {
+    height: 140px;
+  }
+
+  .main-image {
+    height: 140px;
   }
 }

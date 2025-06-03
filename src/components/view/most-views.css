@@ -137,12 +137,13 @@
 .new-artwork .user-art {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .most-views .user-art span,
 .new-artwork .user-art span {
   color: white;
+  margin-left: 5px;
 }
 
 .most-views .user-image img,

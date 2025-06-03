@@ -1,7 +1,7 @@
 .navbar {
   background: var(--sec-main-color);
-  padding-top: 1.3rem !important;
-  padding-bottom: 1.3rem !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
   position: relative !important;
   z-index: 3 !important;
 }
@@ -35,11 +35,11 @@
 
 .sticky-filter {
   position: fixed !important;
-  top: 70px !important;
+  top: 57px !important;
   width: 100% !important;
   background: #0a0a0a !important;
   border-bottom: 1px solid #3c3c3c !important;
-  padding: 27px 0 15px 0 !important;
+  padding: 15px 0 10px 0 !important;
   z-index: 9 !important;
 }
 

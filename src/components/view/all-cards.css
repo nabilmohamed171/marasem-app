@@ -209,14 +209,14 @@
 .image-card .overley-info .user-art span {
   color: #fff;
   font-size: 14px;
-  margin-left: 10px;
+  margin-left: 5px;
   text-transform: capitalize;
 }
 
 .image-card .overley-info .user-image {
   width: 50px;
   height: 50px;
-  margin-left: 15px;
+  margin-left: 10px;
   display: inline-block;
 }
 
@@ -261,6 +261,10 @@
 
   .image-card .overley-info .user-art span {
     font-size: 12px;
+  }
+
+  .image-card:hover .overley-info {
+    opacity: 0;
   }
 }
 

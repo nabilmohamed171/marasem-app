@@ -32,47 +32,44 @@ const FirstCollections = () => {
                   </div>
                 </div>
               </div>
-
               <div className="col-md-6 col-7">
-                <div className="row">
-                  <div className="col-md-8 col-7">
-                    <div className="first-image">
-                      <Link href="/collections">
-                        <Image
-                          src="/images/7.png"
-                          alt="image"
-                          width={177}
-                          height={177}
-                          quality={70}
-                          loading="lazy"
-                        />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-5">
-                    <div className="sec-image">
+                <div className="images-grid">
+                  <div className="main-image">
+                    <Link href="/collections">
                       <Image
-                        src="/images/6.png"
+                        src="/images/7.png"
                         alt="image"
-                        width={85}
-                        height={85}
+                        width={177}
+                        height={177}
                         quality={70}
                         loading="lazy"
                       />
-                      <div className="dark-theme">
-                        <div className="image-number-count">
-                          <div className="overley-r-r-b"></div>
-                          <Image
-                            src="/images/2.png"
-                            alt="image"
-                            width={85}
-                            height={85}
-                            quality={70}
-                            loading="lazy"
-                          />
-                        </div>
-                        <span>5+</span>
+                    </Link>
+                  </div>
+                  <div className="top-right-image">
+                    <Image
+                      src="/images/6.png"
+                      alt="image"
+                      width={85}
+                      height={85}
+                      quality={70}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="bottom-right-image">
+                    <div className="dark-theme">
+                      <div className="image-number-count">
+                        <div className="overley-r-r-b"></div>
+                        <Image
+                          src="/images/5.png"
+                          alt="image"
+                          width={85}
+                          height={85}
+                          quality={70}
+                          loading="lazy"
+                        />
                       </div>
+                      <span>5+</span>
                     </div>
                   </div>
                 </div>
@@ -89,45 +86,43 @@ const FirstCollections = () => {
                 </div>
               </div>
               <div className="col-md-6 col-7">
-                <div className="row">
-                  <div className="col-md-8 col-7">
-                    <div className="first-image">
-                      <Link href="/collections">
-                        <Image
-                          src="/images/3.png"
-                          alt="image"
-                          width={177}
-                          height={177}
-                          quality={70}
-                          loading="lazy"
-                        />
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-5">
-                    <div className="sec-image">
+                <div className="images-grid">
+                  <div className="main-image">
+                    <Link href="/collections">
                       <Image
-                        src="/images/4.png"
+                        src="/images/3.png"
                         alt="image"
-                        width={85}
-                        height={85}
+                        width={177}
+                        height={177}
                         quality={70}
                         loading="lazy"
                       />
-                      <div className="dark-theme">
-                        <div className="image-number-count">
-                          <div className="overley-r-r-b"></div>
-                          <Image
-                            src="/images/5.png"
-                            alt="image"
-                            width={85}
-                            height={85}
-                            quality={70}
-                            loading="lazy"
-                          />
-                        </div>
-                        <span>3+</span>
+                    </Link>
+                  </div>
+                  <div className="top-right-image">
+                    <Image
+                      src="/images/4.png"
+                      alt="image"
+                      width={85}
+                      height={85}
+                      quality={70}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="bottom-right-image">
+                    <div className="dark-theme">
+                      <div className="image-number-count">
+                        <div className="overley-r-r-b"></div>
+                        <Image
+                          src="/images/5.png"
+                          alt="image"
+                          width={85}
+                          height={85}
+                          quality={70}
+                          loading="lazy"
+                        />
                       </div>
+                      <span>3+</span>
                     </div>
                   </div>
                 </div>
