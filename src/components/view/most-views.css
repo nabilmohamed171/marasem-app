@@ -1,0 +1,250 @@
+.most-views,
+.new-artwork {
+  padding: 0;
+}
+
+.most-views .see-all,
+.new-artwork .see-all {
+  position: relative;
+}
+
+.most-views .see-all h2,
+.new-artwork .see-all h2 {
+  color: var(--text-color);
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
+.most-views .see-all a,
+.new-artwork .see-all a {
+  color: var(--text-color);
+  font-size: 12px;
+  position: absolute;
+  top: 6px;
+  right: 0;
+  text-decoration: none;
+  padding: 10px 26px;
+  background: var(--outline-input);
+  border-radius: 20px;
+}
+
+.most-views-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.most-views-card:hover .overley {
+  opacity: 1;
+}
+
+.most-views .most-views-info,
+.new-artwork .new-artwork-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.most-views .image-card,
+.new-artwork .image-card {
+  position: relative;
+  flex-grow: 1;
+}
+
+.most-views .most-views-image,
+.new-artwork .new-artwork-image {
+  height: 380px !important;
+  max-width: 100%;
+}
+
+.most-views .most-views-image img,
+.new-artwork .new-artwork-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.most-views .overley,
+.new-artwork .overley {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 20px;
+}
+
+.most-views .overley-info,
+.new-artwork .overley-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.most-views-card:hover .overley-info {
+  opacity: 1;
+}
+
+.most-views .add-cart,
+.new-artwork .add-cart {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.most-views .add-cart span,
+.new-artwork .add-cart span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.most-views .cart-shopping,
+.new-artwork .cart-shopping {
+  background-color: #00000080;
+}
+
+.most-views .plus,
+.new-artwork .plus {
+  background-color: #f1ad56;
+}
+
+.most-views .heart,
+.new-artwork .heart {
+  background-color: #00000080;
+}
+
+.most-views .user-art,
+.new-artwork .user-art {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.most-views .user-art span,
+.new-artwork .user-art span {
+  color: white;
+}
+
+.most-views .user-image img,
+.new-artwork .user-image img {
+  border-radius: 50%;
+}
+
+.most-views .most-views-info h2,
+.new-artwork .new-artwork-info h2 {
+  color: var(--text-color);
+  padding: 15px 0 4px;
+  font-size: 16px;
+  margin: 0;
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+
+.most-views .most-views-info p,
+.new-artwork .new-artwork-info p {
+  color: #777;
+  font-size: 14px;
+  margin: 0;
+  padding: 0px 0 6px 0;
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 300;
+}
+
+.most-views .most-views-info h3,
+.new-artwork .new-artwork-info h3 {
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.product-info {
+  text-decoration: none;
+}
+
+.new-artwork-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.new-artwork-card:hover .overley {
+  opacity: 1;
+}
+
+.new-artwork-card:hover .overley-info {
+  opacity: 1;
+}
+
+@media (max-width: 575.98px) {
+  .most-views .most-views-image,
+  .new-artwork .new-artwork-image {
+    height: 247px !important;
+    width: 100%;
+  }
+
+  .most-views .most-views-info p,
+  .new-artwork .new-artwork-info p {
+    width: 140px;
+    font-size: 13px;
+  }
+
+  .most-views .most-views-info h2,
+  .new-artwork .new-artwork-info h2 {
+    width: 165px;
+    font-size: 14px;
+  }
+
+  .most-views .most-views-info h3,
+  .new-artwork .new-artwork-info h3 {
+    font-size: 16px;
+  }
+
+  .most-views .see-all h2,
+  .new-artwork .see-all h2 {
+    font-size: 16px;
+    margin-bottom: 25px !important;
+  }
+
+  .most-views .see-all a,
+  .new-artwork .see-all a {
+    top: -10px;
+  }
+
+  .new-artwork {
+    padding-top: 10px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .most-views .most-views-image,
+  .new-artwork .new-artwork-image {
+    height: 290px !important;
+    object-fit: cover;
+  }
+}

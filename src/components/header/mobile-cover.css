@@ -1,0 +1,101 @@
+.main-mobile-cover {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  .main-mobile-cover {
+    display: block !important;
+  }
+
+  .main-mobile-cover .row,
+  .main-mobile-cover [class*="col-"] {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .main-mobile-cover .first-image,
+  .main-mobile-cover .sec-image,
+  .main-mobile-cover .thr-image,
+  .main-mobile-cover .fou-image,
+  .main-mobile-cover .fiv-image,
+  .main-mobile-cover .six-image {
+    margin: 2.5px;
+    box-sizing: border-box;
+  }
+
+  .main-mobile-cover .first-image .img-fluid {
+    height: 495px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+  }
+
+  .main-mobile-cover .sec-image .img-fluid,
+  .main-mobile-cover .thr-image .img-fluid {
+    height: 245.5px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+  }
+
+  .main-mobile-cover .fou-image .img-fluid,
+  .main-mobile-cover .fiv-image .img-fluid,
+  .main-mobile-cover .six-image .img-fluid {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+  }
+
+  .main-mobile-cover .first-image,
+  .main-mobile-cover .sec-image,
+  .main-mobile-cover .thr-image,
+  .main-mobile-cover .fou-image,
+  .main-mobile-cover .fiv-image,
+  .main-mobile-cover .six-image {
+    position: relative;
+  }
+
+  .main-mobile-cover .fou-image,
+  .main-mobile-cover .fiv-image,
+  .main-mobile-cover .six-image {
+    height: 150px;
+  }
+
+  .main-mobile-cover .fou-image img,
+  .main-mobile-cover .fiv-image img,
+  .main-mobile-cover .six-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .main-mobile-cover .first-image .full-info {
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    font-size: 20px;
+  }
+
+  .main-mobile-cover .large-info {
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    color: #fff;
+    text-align: left;
+  }
+
+  .main-mobile-cover .x-small-info {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .main-mobile-cover .x-small-info h2 {
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0;
+  }
+}

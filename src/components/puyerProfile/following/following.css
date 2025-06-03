@@ -1,0 +1,161 @@
+.artist {
+  background-color: #1a1a1a;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.artist:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.artist .artist-images-row {
+  margin: 0;
+  display: flex;
+}
+
+.artist .artist-images-row .col-4 {
+  padding: 0;
+}
+
+.artist .item-image {
+  height: 105px;
+  width: 100%;
+  background-color: #323232;
+  position: relative;
+}
+
+.artist .image-left {
+  border-radius: 0 !important;
+}
+
+.artist .image-right {
+  border-radius: 0 !important;
+}
+
+.artist .item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.artist .artist-info {
+  padding: 40px 15px 15px;
+  position: relative;
+}
+
+.artist .user-image-container {
+  position: relative;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.artist .user-image-wrapper {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #1a1a1a;
+  background-color: #252525;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.artist .artist-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.artist .artist-info h2 {
+  margin-top: 0;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.artist .artist-info span {
+  color: #777;
+  font-size: 14px;
+}
+
+.artist .extra-artist-info {
+  padding: 15px 10px 20px;
+  text-align: center;
+  border-top: 1px solid #252525;
+}
+
+.artist .extra-artist-info button {
+  background: #fff;
+  color: #333;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  font-weight: 500;
+  width: 100%;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.artist .extra-artist-info button:hover {
+  background-color: #eee;
+}
+
+.artist .extra-artist-info h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.artist .extra-artist-info span {
+  font-size: 12px;
+  color: #777;
+}
+
+.artist .follow-unfollow-active {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.artist .follow-unfollow-active:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+@media (max-width: 575.98px) {
+  .artist {
+    margin-bottom: 15px;
+  }
+
+  .artist .user-image-wrapper {
+    width: 70px;
+    height: 70px;
+    top: -60px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .artist .artist-info {
+    padding: 40px 10px 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .artist .artist-info h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .artist .extra-artist-info button {
+    font-size: 13px;
+    padding: 8px;
+  }
+}

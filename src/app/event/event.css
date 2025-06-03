@@ -1,0 +1,155 @@
+.event-page {
+  color: #fff;
+  padding: 50px 0;
+}
+
+.event-page h4 {
+  color: #7ed321;
+  font-size: 15px;
+  padding: 10px 0 0 0;
+  font-weight: 600;
+}
+
+.event-page h3 {
+  color: #f1ad56;
+  font-size: 20px;
+  padding: 0;
+  font-weight: 400;
+}
+
+.event-page h2 {
+  color: #fff;
+  font-size: 80px;
+  padding: 0;
+  font-weight: 700;
+}
+
+.event-page span.icon-map {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #000;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.event-page p {
+  color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.event-page .event-info {
+  position: relative;
+}
+
+.event-page .event-info p {
+  color: #ebebf599;
+  font-size: 14px;
+  text-align: justify;
+  padding: 10px 50px 0 0;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.event-page .event-info .show-more-btn {
+  color: #f1ad56;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 15px 0;
+  display: inline-block;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  position: relative;
+  padding: 5px 0;
+  display: block;
+  margin-left: 10px;
+}
+
+.event-page .event-info .show-more-btn:hover {
+  color: #f1ad56;
+}
+
+.event-hr {
+  color: #777;
+  margin: 50px 0;
+}
+
+.event-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.responsive-image:hover {
+  transform: scale(1.02);
+}
+
+.two-event,
+.thr-event,
+.four-event {
+  margin-top: 80px;
+}
+
+.more-text {
+  color: #ebebf599;
+  font-size: 14px;
+  text-align: justify;
+  padding: 10px 50px 0 0;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .event-page .event-info .show-more-btn {
+    margin: 20px 0;
+  }
+
+  .event-page h2 {
+    font-size: 60px;
+  }
+
+  .event-page .event-info p,
+  .event-page .event-info .more-text {
+    padding: 10px 10px 0 0;
+  }
+
+  .event-page span.icon-map {
+    margin-bottom: 20px;
+  }
+
+  .event-page h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .event-image {
+    margin-top: 30px;
+  }
+}

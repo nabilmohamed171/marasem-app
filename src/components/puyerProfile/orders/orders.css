@@ -1,0 +1,111 @@
+.section-orders .order {
+  background-color: #141414;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.section-orders .order .order-info h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.section-orders .order .order-info p {
+  color: #777;
+  font-size: 14px;
+}
+
+.section-orders .order .order-info span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section-orders .order span {
+  display: block;
+}
+
+.section-orders .order .pending,
+.section-orders .order .canceled,
+.section-orders .order .details,
+.section-orders .order .rejected,
+.section-orders .order .delivered {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 35px;
+  text-align: right;
+}
+
+.section-orders .order .pending {
+  color: #f1ad56;
+}
+
+.section-orders .order .canceled {
+  color: #565656;
+  text-transform: uppercase;
+}
+
+.section-orders .order .details {
+  color: #fff;
+  text-decoration: none;
+  float: right;
+  margin-bottom: 0;
+}
+
+.section-orders .order .delivered {
+  color: #fff;
+}
+
+.section-orders .order .rejected {
+  color: rgb(255, 84, 84);
+}
+
+.section-orders .order .view-next-icon {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+@media (max-width: 575.98px) {
+  .section-orders .order {
+    position: relative;
+    padding: 60px 20px 30px 20px;
+  }
+
+  .section-orders .order .pending,
+  .section-orders .order .canceled,
+  .section-orders .order .delivered,
+  .section-orders .order .rejected {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding-bottom: 0;
+  }
+
+  .section-orders .order .delivered {
+    font-size: 20px;
+  }
+
+  .section-orders .order .details {
+    position: absolute;
+    bottom: 35px;
+    right: 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+
+  .section-orders .order .order-info h3 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .section-orders .order .order-info p {
+    color: #777;
+    font-size: 13px;
+  }
+
+  .section-orders .order .order-info span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+}

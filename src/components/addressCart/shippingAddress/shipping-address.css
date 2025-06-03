@@ -1,0 +1,282 @@
+.shipping-address-popup {
+  background-color: #31313199;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shipping-address-popup .address-popup {
+  width: 40%;
+  max-width: 600px;
+  min-width: 300px;
+  padding: 25px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #000;
+  position: relative;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.shipping-address-popup .address-content {
+  overflow-y: auto;
+  flex: 1;
+  padding-right: 5px;
+}
+
+.shipping-address-popup .close-popup {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.shipping-address-popup .address-popup h2 {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.shipping-address-popup .default-address,
+.shipping-address-popup .sec-address {
+  background-color: #2f2f30;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.shipping-address-popup .sec-address {
+  background: #1a1a1a;
+}
+
+.shipping-address-popup .edit-address-popup {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.shipping-address-popup .icon-edit {
+  margin-right: 5px;
+}
+
+.name-default-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.default-address .username,
+.sec-address .username {
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.shipping-address-popup .default-address p.full-address,
+.shipping-address-popup .sec-address p.full-address {
+  color: #e5e5e5;
+  margin: 10px 0;
+  font-size: 13px;
+  width: 80%;
+  word-break: break-word;
+}
+
+.phone-check-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shipping-address-popup .default-address p.phone-number,
+.shipping-address-popup .sec-address p.phone-number {
+  color: #e5e5e5;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.shipping-address-popup .span-default {
+  background: #f1ad56;
+  color: #333;
+  padding: 4px 15px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.buttons-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.shipping-address-popup .new-address,
+.shipping-address-popup .save-address {
+  flex: 1;
+  min-width: 120px;
+}
+
+.shipping-address-popup .new-address button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.shipping-address-popup .new-address button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.shipping-address-popup .save-address button {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.shipping-address-popup .save-address button:hover {
+  background-color: #e6e6e6;
+}
+
+.check-number-phone {
+  background-color: #f1ad56;
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #333;
+}
+
+.shipping-address-popup .form-check-input {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  margin-top: 3px;
+  border: 2px solid #f1ad56;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+  .shipping-address-popup .address-popup {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .shipping-address-popup .address-popup {
+    width: 80%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .shipping-address-popup {
+    align-items: flex-end;
+  }
+
+  .shipping-address-popup .address-popup {
+    width: 100%;
+    max-height: 85vh;
+    border-radius: 20px 20px 0 0;
+    padding: 20px;
+  }
+
+  .shipping-address-popup .address-content {
+    padding-bottom: 20px;
+  }
+
+  .buttons-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .shipping-address-popup .new-address {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .shipping-address-popup .new-address button {
+    width: 80%;
+    margin: 0;
+  }
+
+  .shipping-address-popup .save-address button {
+    width: 100%;
+  }
+
+  .shipping-address-popup .default-address p.full-address,
+  .shipping-address-popup .sec-address p.full-address {
+    width: 90%;
+  }
+
+  .shipping-address-popup .close-popup {
+    top: 15px;
+    right: 15px;
+  }
+
+  .name-default-container {
+    gap: 8px;
+  }
+
+  .span-default {
+    position: static;
+  }
+
+  .phone-check-container {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  .shipping-address-popup .new-address button {
+    width: 100%;
+  }
+
+  .shipping-address-popup .default-address p.full-address,
+  .shipping-address-popup .sec-address p.full-address {
+    font-size: 12px;
+  }
+
+  .check-number-phone {
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+  }
+}

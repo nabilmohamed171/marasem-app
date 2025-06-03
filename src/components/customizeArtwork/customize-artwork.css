@@ -1,0 +1,285 @@
+.customize-artwork {
+  position: fixed;
+  background-color: #1a1a1a8c;
+  color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  overflow-y: auto;
+}
+
+.customize-artwork span.close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.artwork {
+  width: 60%;
+  margin: 100px auto;
+  background-color: #000;
+  padding: 70px 20px 20px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.customize-image {
+  background-color: #1a1a1a;
+  text-align: center;
+  height: 380px;
+  padding: 80px 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.user-name {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.user-name img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user .name {
+  font-size: 15px;
+  position: relative;
+  top: -10px;
+}
+
+.user .address {
+  position: relative;
+  left: -105px;
+  top: 10px;
+  color: #777;
+}
+
+.main-image-container {
+  width: 118px;
+  height: 110px;
+  margin: 0 auto 30px;
+}
+
+.main-image-placeholder {
+  width: 100%;
+  height: 100%;
+}
+
+.main-image-upload {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.main-image-uploaded {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.main-image-container p.first {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.main-image-container p.sec {
+  font-size: 13px;
+}
+
+.main-image-upload-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.secondary-images {
+  margin-top: 15px;
+}
+
+.secondary-image-container {
+  background: #1a1a1a;
+  text-align: center;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 25px;
+  line-height: 60px;
+  color: #777;
+  position: relative;
+  cursor: pointer;
+}
+
+.secondary-image-container:hover {
+  background: #2a2a2a;
+}
+
+.secondary-image-uploaded {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.secondary-image-upload-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.user-info h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+label {
+  font-size: 13px;
+}
+
+input[type="text"],
+textarea {
+  background: #1a1a1a !important;
+  border: 1px solid #1a1a1a !important;
+  padding: 10px !important;
+  color: #eee !important;
+  margin-bottom: 15px !important;
+  border-radius: 10px !important;
+  outline: none !important;
+}
+
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: #777 !important;
+}
+
+.desc {
+  height: 95px !important;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  background: #1a1a1a !important;
+  border: 1px solid #1a1a1a !important;
+  color: #fff !important;
+}
+
+.button-send-request {
+  float: right;
+}
+
+.button-send-request a {
+  text-decoration: none;
+}
+
+.button-send-request button {
+  padding: 10px 30px;
+  background-color: #f1ad56 !important;
+  color: #333 !important;
+  margin-top: 40px !important;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 50px;
+  float: right;
+}
+
+@media (max-width: 767.98px) {
+  .artwork {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    min-height: 100vh;
+    padding: 60px 15px 30px;
+  }
+
+  .customize-image {
+    height: 250px;
+    padding: 40px 20px;
+  }
+
+  .user-info h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .user {
+    margin-bottom: 25px;
+  }
+
+  .button-send-request {
+    float: none;
+    width: 100%;
+  }
+
+  .button-send-request button {
+    width: 100%;
+    margin-top: 20px !important;
+  }
+
+  .user .address {
+    position: relative;
+    left: -105px !important;
+    top: 10px !important;
+    color: #777 !important;
+  }
+
+  .customize-artwork span.close {
+    top: 10px !important;
+    right: 15px !important;
+  }
+
+  input[type="text"],
+  textarea {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .customize-image {
+    height: 200px;
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .customize-image {
+    height: 290px;
+    padding: 60px 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .customize-image {
+    height: 290px;
+    padding: 40px 20px;
+  }
+}

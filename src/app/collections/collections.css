@@ -1,0 +1,125 @@
+.collections-page {
+  padding-top: 50px;
+}
+
+.collections-page .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.collections-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.collections-title h4 {
+  color: #fff;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.title-with-button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.collections-title h2 {
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+}
+
+.collections-page .follow-collection {
+  color: #000;
+  width: 195px;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px 26px;
+  background: #fff;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.follow-collection-active {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.collections-filter-image .slider-wrapper {
+  width: 115% !important;
+}
+
+.collections-filter-image .slider-scroll {
+  right: -205px !important;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) {
+  .collections-title h2 {
+    font-size: 20px;
+  }
+
+  .collections-page .follow-collection {
+    width: 245px;
+    padding: 8px 16px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .title-with-button {
+    gap: 15px;
+    align-items: center;
+  }
+
+  .collections-title h2 {
+    font-size: 20px;
+  }
+
+  .collections-page .follow-collection {
+    width: 245px;
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .title-with-button {
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .collections-title h2 {
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 245px;
+  }
+
+  .collections-page .follow-collection {
+    width: auto;
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+  .images-items-collections p,
+  .images-items-collections h2 {
+    width: 180px;
+  }
+}

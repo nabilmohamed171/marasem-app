@@ -1,0 +1,540 @@
+.puyer-profile-info {
+  color: #fff;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 50px;
+  z-index: 1;
+  background-color: #1a1a1a;
+  padding: 30px 0;
+  border-radius: 20px;
+}
+
+.puyer-profile-info .overley {
+  border-radius: 50%;
+  display: none;
+}
+
+.puyer-profile-info .puyer-photo {
+  width: 92px;
+  height: 92px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.puyer-profile-info .puyer-photo .edit-photo-profile {
+  position: absolute;
+  top: 25px;
+  left: 12px;
+  cursor: pointer !important;
+  display: none;
+}
+
+.puyer-profile-info .upload-photo-profile {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer !important;
+}
+
+.puyer-profile-info .puyer-photo span.edit {
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer !important;
+}
+
+.puyer-profile-info .puyer-photo span.pen-icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.puyer-profile-info .puyer-photo {
+  width: 70px;
+  height: 70px;
+}
+
+.puyer-profile-info .puyer-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.puyer-profile-info .puyer-name {
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.puyer-profile-info .puyer-name h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0 0 10px;
+}
+
+.puyer-profile-info .puyer-name span {
+  font-size: 14px;
+  color: #ebebf599;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.puyer-profile-info .box-orders-profile-page .box-list-orders ul li {
+  border-bottom: 1px solid #5a5a5a;
+  padding: 15px 20px;
+}
+
+.puyer-profile-info .box-orders-profile-page .box-list-orders ul li.active {
+  background: #060606;
+}
+
+.puyer-profile-info
+  .box-orders-profile-page
+  .box-list-orders
+  ul
+  li
+  span.active-color {
+  color: #f1ad56;
+}
+
+.puyer-profile-info
+  .box-orders-profile-page
+  .box-list-orders
+  ul
+  li:first-of-type {
+  border-bottom: none;
+}
+
+.puyer-profile-info
+  .box-orders-profile-page
+  .box-list-orders
+  ul
+  li:nth-child(2) {
+  border-bottom: none;
+}
+
+.puyer-profile-info .box-orders-profile-page .box-list-orders ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.puyer-profile-info .button-more-info {
+  background: #353535;
+  border: 1px solid #353535;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.puyer-profile-info .active-more-info {
+  background-color: #f1ad56 !important;
+  border: 1px solid #f1ad56 !important;
+  color: #222 !important;
+}
+
+.puyer-profile-info .box-orders-profile-page .box-list-orders .addresses-icon,
+.puyer-profile-info .box-orders-profile-page .box-list-orders .order-icon,
+.puyer-profile-info .box-orders-profile-page .box-list-orders .credit-icon {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #777;
+}
+
+.box-orders-profile-page .box-list-orders .favorites-number,
+.box-orders-profile-page .box-list-orders .following-number {
+  float: right;
+  font-weight: 600;
+}
+
+.puyer-profile-info .puyer-name button,
+.puyer-profile-info .buttons .logout {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 10px;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  width: 80%;
+}
+
+.puyer-profile-info .buttons .logout {
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.puyer-profile-info .puyer-name .button-more-info {
+  background-color: #252525;
+  border: 1px solid #252525;
+  font-weight: 400;
+}
+
+.puyer-profile-info .puyer-name .arrow-down-icon {
+  display: inline-block;
+  position: absolute;
+  margin-left: 3px;
+  color: #fff;
+}
+
+.puyer-profile-info .buttons .logout-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.nav-hr {
+  width: 2px;
+  height: 24px;
+  background-color: #4c4c4c;
+  margin: 0 10px;
+  border: 1px solid #4c4c4c;
+}
+
+.puyer-profile-info .buttons button {
+  background-color: transparent;
+  border: none;
+  color: #ebebf599;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+}
+
+.links-profile {
+  margin: 50px 0 20px 0;
+}
+
+.links-profile ul .nav-link {
+  color: #fff;
+  margin-right: 10px;
+  padding: 7px 15px;
+  transition: all 0.3s ease-out;
+  font-size: 15px;
+}
+
+.links-profile ul .nav-link:hover {
+  background-color: #fff;
+  color: #333 !important;
+  border-radius: 30px;
+}
+
+.active-sub-menu {
+  background-color: #fff;
+  color: #333 !important;
+  border-radius: 30px;
+}
+
+.collections-artist {
+  color: #fff;
+  position: relative;
+}
+
+.collections-artist .item-image {
+  position: relative;
+}
+
+.collections-artist .overley-photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.collections-artist .photo {
+  height: 380px;
+}
+
+.collections-artist .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.cart-heart {
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+.photo-info {
+  margin-bottom: 20px;
+}
+
+.photo-info h2 {
+  font-size: 16px;
+  margin: 10px 0 3px;
+}
+
+.section-addresses .addresses .map-icon {
+  font-size: 16px;
+  padding: 0;
+  margin: 8px 0 0;
+  line-height: 1.5;
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.photo-info p {
+  font-size: 14px;
+  padding: 0;
+  margin: 0 0 2px;
+  color: #777;
+  line-height: 1.5;
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.photo-info span {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.item-image .overley {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-image .overley:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.item-image {
+  position: relative;
+}
+
+.item-image .overley-info .plus {
+  position: absolute;
+  left: 34px;
+  top: 28px;
+  font-size: 12px;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  line-height: 11px;
+  text-align: center;
+  color: #333 !important;
+  background-color: #f1ad56 !important;
+}
+
+.item-image .overley-info .user-art {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+
+.item-image .overley-info .heart {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 22px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.item-image .overley-info .cart-shopping {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #f1ad56 !important;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.item-image .overley-info .plus {
+  position: absolute;
+  left: 40px;
+  top: 31px;
+  font-size: 12px;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  line-height: 11px;
+  text-align: center;
+  color: #333 !important;
+  background-color: #f1ad56 !important;
+}
+
+.item-image .overley-info .user-art span {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
+.item-image .overley-info .user-image {
+  width: 50px;
+  height: 50px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.item-image .overley-info .user-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.item-image .overley-info {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-image:hover .overley-info {
+  opacity: 1;
+}
+
+.dropdown-more-info-mobile button.dropdown-toggle {
+  border-radius: 10px;
+  background-color: #2f2f30;
+  color: #fff;
+  border: 1px solid #2f2f30;
+  font-weight: 400;
+}
+
+.art-name {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.art-name h2 {
+  font-size: 15px;
+}
+
+.art-name span {
+  color: #777;
+}
+
+.follow-active {
+  background-color: transparent !important;
+  border: 1px solid #fff !important;
+  color: #fff !important;
+}
+
+.item-count {
+  color: #f1ad56;
+}
+
+@media (max-width: 575.98px) {
+  .links-profile ul .nav-link {
+    padding: 7px 10px;
+  }
+
+  .artist-public-info,
+  .box-orders-profile-page,
+  .about-me,
+  .tags,
+  .member,
+  .buttons {
+    display: none;
+  }
+
+  .custom-mobile {
+    position: relative !important;
+    top: -85px !important;
+  }
+
+  .links-profile {
+    margin: 90px 0 35px !important;
+  }
+
+  .puyer-profile-info .puyer-name button {
+    width: 100% !important;
+  }
+
+  .art-name {
+    text-align: left !important;
+  }
+
+  .collections-artist .photo {
+    height: 247px;
+  }
+
+  .photo-info p {
+    width: 185px !important;
+  }
+
+  .puyer-profile-info {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .puyer-profile-info .puyer-photo {
+    margin-left: 20px;
+  }
+
+  .art-name {
+    margin-left: 10px;
+  }
+
+  .nav-collections-artists-sm {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .artist-public-info,
+  .about-me,
+  .tags,
+  .member,
+  .buttons {
+    display: none;
+  }
+
+  .custom-mobile {
+    position: relative !important;
+    top: -85px !important;
+  }
+
+  .links-profile {
+    margin: 90px 0 35px !important;
+  }
+
+  .puyer-profile-info .puyer-name button {
+    width: 100% !important;
+  }
+
+  .art-name {
+    text-align: left !important;
+  }
+
+  .collections-artist .photo {
+    height: 247px !important;
+  }
+}
