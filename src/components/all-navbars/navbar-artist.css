@@ -78,6 +78,7 @@
     top: 54px;
     bottom: 0;
     background: #000;
+    z-index: 9999;
   }
 
   .artist-menu-mobile .box-menu .box-search .form-search {

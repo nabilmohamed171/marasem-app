@@ -139,7 +139,7 @@
 .links-profile ul .nav-link {
   color: #fff;
   margin-right: 10px;
-  padding: 5px 7px;
+  padding: 5px 3px;
   transition: all 0.3s ease-out;
   font-size: 15px;
 }
@@ -371,7 +371,7 @@
 }
 
 .art-name {
-  padding-top: 5px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -381,6 +381,7 @@
 
 .art-name span {
   color: #777;
+  font-size: 11px !important;
 }
 
 .follow-active {

@@ -62,7 +62,7 @@
 
 .user .address {
   position: relative;
-  left: -97px !important;
+  left: -98px !important;
   top: 8px !important;
   color: #777 !important;
   font-size: 11px;
@@ -157,7 +157,7 @@
 }
 
 .user-info h2 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 15px;
   margin-top: 10px;
 }
@@ -248,9 +248,10 @@ textarea:focus {
 
   .user .address {
     position: relative;
-    left: -105px !important;
+    left: -98px !important;
     top: 10px !important;
     color: #777 !important;
+    font-size: 11px;
   }
 
   .customize-artwork span.close {
@@ -264,7 +265,7 @@ textarea:focus {
   }
 
   ::placeholder {
-    font-size: 11px;
+    font-size: 11px !important;
   }
 
   .upload-text p {
@@ -276,6 +277,10 @@ textarea:focus {
   .customize-image {
     height: 200px;
     padding: 30px 20px;
+  }
+
+  ::placeholder {
+    font-size: 11px !important;
   }
 }
 
